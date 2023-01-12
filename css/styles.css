@@ -1,0 +1,294 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+  color: #000000;
+}
+
+html {
+  height: 0;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  /* Remove scrollbar space */
+  background: transparent;
+  /* Optional: just make scrollbar invisible */
+}
+
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #FF0000;
+}
+
+h1, h2, h3 {
+  font-family: "Poppins";
+}
+
+h1 {
+  font-size: 3.3rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+.word{
+  color: #0948A3;
+}
+.heading{
+  padding: 50px 0;
+}
+
+
+/* Title Section */
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Navigation Bar */
+.navbar {
+  font-weight: normal;
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #0948A3;
+}
+
+.navbar-brand:hover {
+  color: #0948A3;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.1rem;
+  color: #000000;
+}
+
+.nav-link:hover {
+  color: #F7D716;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-menu a {
+  color: black;
+  padding: 12px 16px;
+  display: block;
+}
+
+.dropdown-menu a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+.toggle-icon{
+  color: #000000;
+}
+
+/* Title secton */
+#title{
+  background-color: #F4FAFD;
+}
+.slogan{
+  padding-bottom: 50px;
+}
+
+.for-bookinings{
+  color: #F7D716;
+  font-size: 2rem;
+}
+
+
+
+/* download-button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+
+
+/* Title Icon */
+.title-icon {
+  margin-left: 50px;
+  font-size: 30rem;
+  color: #F7D716;
+}
+
+/* Feature Section */
+#features {
+  text-align: center;
+  padding: 7% 0%;
+}
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #0948A3;
+  padding-bottom: 1rem;
+}
+
+/* Pricing-Section */
+#pricing {
+  background-color: #F4FAFD;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.mini {
+  width: 65%;
+}
+
+.sedan {
+  width: 110%;
+}
+
+.suv {
+  width: 94%;
+}
+
+/* Call to Action */
+#cta {
+  text-align: center;
+  padding: 100px 230px 40px;
+}
+
+/* why-GoTaxi*/
+#why-GoTaxi {
+  text-align: center;
+  background-color: #F4FAFD;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.reason{
+  line-height: 100px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Footer Section */
+#contact {
+  text-align: center;
+}
+
+.contact-us {
+  font-size: 3.4rem;
+  color: #000000;
+}
+
+.feel-free {
+  font-size: 1.3rem;
+  padding-bottom: 50px;
+  color: #000000;
+}
+
+.contact {
+  text-align: left;
+  padding: 200px 170px;
+}
+
+.contact-info {
+  color: #000000;
+  font-size: 1.5rem;
+}
+
+.contact-icon {
+  color: #000000;
+  padding-right: 20px;
+}
+
+.contact-us-img {
+  width: 80%;
+  margin: 100px 210px auto auto;
+}
+
+/* Footer */
+#footer {
+  text-align: center;
+  background-color: #181743;
+}
+.brand{
+  font-size: 2.5rem;
+  padding-top: 20px;
+  color: #ffffff;
+}
+.footer-text{
+  padding: 30px 0;
+  color: #ffffff;
+}
+.footer-icon {
+  font-size: 30px;
+  text-align: center;
+  padding: 10px 50px 50px 0;
+  color: #ffffff;
+
+}
+.fa-brands{
+  color: #ffffff;
+}
+.last-line{
+  color: #000000;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.fa-heart{
+  color: red;
+}
+.raviprasath {
+  text-decoration: none;
+}
+
+@media (max-width:1028px) {
+  body{
+    text-align: center;
+  }
+}
